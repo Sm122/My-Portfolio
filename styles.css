@@ -3,7 +3,7 @@
 
 
 :root {
-    --primary: #7C3AED;
+    --primary: #10B981;
     --gray: #F3F4F6;
     --dark-gray:#6B7280;
 }
@@ -59,12 +59,12 @@ hr {
 /** nav **/
 .navigation {
     background-color: var(--primary);
-    padding: 1rem 0rem;
+    padding: 1rem ;
     color: white;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .brand {
+.navigation .nav-brand {
     font-weight: bold;
     
 }
