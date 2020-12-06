@@ -27,7 +27,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
    
 }
@@ -72,6 +72,7 @@ hr {
 .list-non-bullet .list-item-alternate{
     margin: 50px 0rem;
     background-color: #E4E4E7;
+    padding : 1rem,0rem;
 }
 .list-item-inline {
     display: inline;
