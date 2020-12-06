@@ -140,6 +140,11 @@ hr {
     display: block;
     margin: auto;   
 }
+.hero .hero-blog-pic{
+    max-width: 300px;
+    display: block;
+    margin: auto;   
+}
 
 /** sections **/
 
