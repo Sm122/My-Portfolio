@@ -90,6 +90,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    width:100%;
 }
 
 .navigation .nav-brand {
@@ -137,7 +138,7 @@ hr {
 }
 
 .hero .hero-project-pic{
-    max-width: 600px;
+    max-width: 300px;
     display: block;
     margin: auto;   
 }
