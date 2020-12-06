@@ -58,7 +58,7 @@ hr {
     padding: 0.5rem 1rem;
 }
 
-/** look into BEM naming convention for CSS **/
+
 
 /** lists **/
 
@@ -69,9 +69,17 @@ hr {
 .list-non-bullet .list-item{
     margin: 50px 0rem;
 }
+.list-non-bullet .list-item-alternate{
+    margin: 50px 0rem;
+    background-color: #E4E4E7;
+}
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
+}
+.list-non-bullet .list-item-inline .list-item-pic{
+    max-width: 200px;
+    display: inline-block;
 }
 
 /** navigation **/
@@ -111,10 +119,11 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 500px;
+    max-width: 300px;
     display: block;
     margin: auto;   
 }
+
 
 .hero .hero-heading {
     text-align: center;
@@ -124,6 +133,12 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+.hero .hero-project-pic{
+    max-width: 600px;
+    display: block;
+    margin: auto;   
 }
 
 /** sections **/
@@ -217,4 +232,7 @@ hr {
   .fa-facebook {
     background: #3B5998;
     color: white;
+  }
+  .fa-github{
+      background: var(--off-white);
   }
